@@ -1,0 +1,24 @@
+{
+  "name": "wyymusci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "kfdykme.dev.music",
+    "linux": {
+      "category": "Audio",
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron": "^10.1.0",
+    "electron-builder": "^22.8.0"
+  }
+}
